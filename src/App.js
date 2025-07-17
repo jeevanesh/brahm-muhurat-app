@@ -46,7 +46,7 @@ function App() {
   }, [location]);
 
   const calculateMuhurta = (sunrise) => {
-    const start = new Date(sunrise.getTime() - 90 * 60000);
+    const start = new Date(sunrise.getTime() - 96 * 60000);
     const end = new Date(start.getTime() + 48 * 60000);
     setStartTime(start);
     setEndTime(end);
